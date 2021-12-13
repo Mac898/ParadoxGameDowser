@@ -1,0 +1,361 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-msys
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Mon Dec 13 15:20:17 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+ 
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+GLEAMVIZ_ROOT = D:\simulation
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 10)
+TARGET = launchdecider
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := /d/Code/ParadoxLauncherDecider
+# default
+SHELL := /bin/sh
+# environment
+NVCUDASAMPLES11_2_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.2
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# makefile (from 'Makefile', line 7)
+CFLAGS = -g -Wall -fpermissive
+# environment
+WWISESDK = D:\WWise\SDK
+# environment
+ONEDRIVE = C:\Users\Administrator\OneDrive
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# environment
+WWISEROOT = D:\WWise\
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = /home/ADMINI~1/AppData/Local/Temp/1
+# environment
+GYP_MSVS_VERSION = 2015
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+ADSK_3DSMAX_X64_2019 = D:\Autodesk3dsMax\3ds Max 2019\
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+NDI_RUNTIME_DIR_V3 = C:\Program Files\NewTek\NDI 4 Runtime\v4
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f5aa53ff-ddd1-41ba-a355-72c29de29609-sock
+# environment
+VSCODE_CWD = C:\Users\Administrator\AppData\Local\Programs\VSCodium
+# default
+MAKE_HOST := x86_64-pc-msys
+# environment
+PATH = /c/WINDOWS:/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin:/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/libnvvp:/c/Program Files/Java/jdk-17.0.1/bin:/c/Python37/Scripts:/c/Python37:/home/Administrator/AppData/Local/Programs/Python/Python38/Scripts:/c/Program Files/ImageMagick-7.0.10-Q16-HDRI:/c/Program Files/GLEAMviz/libs:/c/Program Files/ImageMagick-7.0.9-Q16:/opt/devkitpro/msys2/usr/bin:/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Program Files/PuTTY:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files (x86)/ZeroTier/One:/c/Program Files/dotnet:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files (x86)/Lame For Audacity:/c/Program Files (x86)/Ffmpeg For Audacity:/c/ProgramData/chocolatey/bin:/home/Administrator/apache-maven-3.6.3-bin/apache-maven-3.6.3/bin:/c/Program Files/GIMP 2/bin:/home/Administrator/AppData/Local/Android/sdk/platform-tools:/c/Program Files/WorldPainter:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Program Files/Calibre2:/c/Program Files/Git/cmd:/home/xmach/apache-ant-1.10.8/bin:/home/Administrator/ffmpeg/bin:/c/ImageMagick-6.8.8/bin:/c/Program Files (x86)/NSIS:/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/c/Go/bin:/c/Program Files/nodejs:/home/Administrator/Documents/geckodriver:/c/Program Files/OpenSSH-Win64:/home/Administrator/AppData/Local/Programs/VSCodium:/c/Program Files/NVIDIA Corporation/Nsight Compute 2020.3.0:/c/msys64/mingw64/bin:/home/Administrator/.cargo/bin:/home/Administrator/.windows-build-tools/python27:/c/Program Files/nodejs/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/Administrator/AppData/Roaming/npm/node_modules/windows-build-tools/node_modules/.bin:/home/Administrator/AppData/Roaming/npm/node_modules/.bin:/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Program Files/PuTTY:/c/Program Files/Microsoft VS Code/bin:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files (x86)/ZeroTier/One:/c/Program Files/nodejs:/c/Program Files/Git/cmd:/c/Program Files/dotnet:/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Ubuntu/Ubuntu:/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/c/Program Files (x86)/Lame For Audacity:/c/Program Files (x86)/Ffmpeg For Audacity:/home/Administrator/AppData/Local/Programs/Python/Python37-32/Scripts:/home/Administrator/AppData/Local/Programs/Python/Python37-32:/home/Administrator/AppData/Local/Microsoft/WindowsApps:/c/Program Files (x86)/Nmap:/home/Administrator/AppData/Local/Programs/Fiddler:/home/Administrator/go/bin:/home/Administrator/AppData/Roaming/npm:/home/Administrator/Downloads/nim-1.4.2_x64/nim-1.4.2/bin:/home/Administrator/.nimble/bin:/home/Administrator/Downloads/nim-1.4.2_x64/nim-1.4.2/dist/mingw64/bin:/home/Administrator/.dotnet/tools:/home/Administrator/AppData/Local/Programs/VSCodium/bin:/c/Program Files (x86)/GitHub CLI
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132653736578634673
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\Administrator
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\Administrator\go
+# environment
+XNAGSSHARED = C:\Program Files (x86)\Common Files\Microsoft Shared\XNA\
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = localhost:0
+# environment
+FLEXLM_TIMEOUT = 1500000
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+XNAGSV4 = C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\
+# environment
+HOME = /home/xmach
+# environment
+COMPUTERNAME = WIN-UQQF09ASK8R
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+CUDA_PATH_V11_2 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+GLEAMVIZ_INSTALLDIR = C:\Program Files\GLEAMviz
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.2
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = xmach
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+BESIEGE_UNITY_ASSEMBLIES = D:/Steam/steamapps/common/Besiege/Besiege_Data\Managed/
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Administrator\AppData\Roaming\VSCodium\CachedData\ccbaa2d27e38e5afa3e5c21c1c7bef4657064247
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\WIN-UQQF09ASK8R
+# environment
+KINECTSDK10_DIR = C:\Program Files\Microsoft SDKs\Kinect\v1.8\
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = WIN-UQQF09ASK8R
+# environment
+DEVKITPRO = /opt/devkitpro
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+DEVKITARM = /opt/devkitpro/devkitARM
+# environment
+!D: = d:\Code\ParadoxLauncherDecider
+# makefile (from 'Makefile', line 2)
+CC = g++
+# environment
+JAVA_HOME = C:\Program Files\Java\jre1.8.0_191\
+# environment
+OMP_NUM_THREADS = 16
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\Administrator\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# environment
+VS150COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\e4977f19ec7445fb320df3a11b231f4f-1.62.3-main-sock
+# environment
+HOMEPATH = \Users\Administrator
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Administrator\AppData\Roaming
+# environment
+TEMP = /home/ADMINI~1/AppData/Local/Temp/1
+# environment
+BESIEGE_GAME_ASSEMBLIES = D:/Steam/steamapps/common/Besiege/Besiege_Data\Managed/
+# environment
+AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+# environment
+ 
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
+# environment
+LC_ALL = C
+# environment
+NDI_RUNTIME_DIR_V2 = C:\Program Files\NewTek\NDI 4 Runtime\v4
+# environment
+NDI_RUNTIME_DIR_V4 = C:\Program Files\NewTek\NDI 4 Runtime\v4
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 0802
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+DEVKITPPC = /opt/devkitpro/devkitPPC
+# environment
+ADSK_CLM_WPAD_PROXY_CHECK = FALSE
+# environment
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+TERM = cygwin
+# environment
+VSCODE_PID = 9256
+# environment
+USERDOMAIN_ROAMINGPROFILE = WIN-UQQF09ASK8R
+# variable set hash-table stats:
+# Load=134/1024=13%, Rehash=0, Collisions=23/159=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 187044949, inode 4503599627397632): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: launchdecider
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+launchdecider: launchdecider.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-12 23:44:56.0241237
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 15):
+	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-12 20:18:05.9821505
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 18):
+	$(RM) $(TARGET)
+
+# Not a target:
+launchdecider.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-12 23:44:50.6670999
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/21=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 14 / storage = 141 B / avg = 10 B
+# current buf: size = 8162 B / used = 141 B / count = 14 / avg = 10 B
+
+# strcache performance: lookups = 24 / hit rate = 41%
+# hash-table stats:
+# Load=14/8192=0%, Rehash=0, Collisions=1/24=4%
+# Finished Make data base on Mon Dec 13 15:20:17 2021
+
+ 
